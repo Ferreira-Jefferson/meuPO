@@ -3,14 +3,19 @@ import redefineTextAreaSize from "../utils";
 
 let API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
 
-// Descomente a linha abaixo e insira sua API Key no local indicado
-// API_KEY = 'SUA_API_KEY_AQUI'
+// Descomente a linha abaixo e insira SUA_API_KEY no local indicado
+// API_KEY = "SUA_API_KEY";
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 async function asnwer(prompt, textarea) {
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-  const result = await model.generateContentStream(prompt);
+  const system_instruction =
+    "Você é um product owner da metodolodia scrum, sempre segue o que o usuário solicitou, considerando o máximo de detalhes possíveis para responder com a maior exatidão possível, sempre utilizando uma linguagem clara e objetiva. \n\n";
+  const prompt_with_system_instruction = system_instruction + prompt;
+  const result = await model.generateContentStream(
+    prompt_with_system_instruction,
+  );
 
   textarea.value = "";
   for await (const chunk of result.stream) {

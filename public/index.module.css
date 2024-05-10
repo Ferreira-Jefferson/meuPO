@@ -1,0 +1,97 @@
+/* public/index.module.css */
+
+.container {
+  font-family: system-ui;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 20px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ddd;
+}
+
+.scrumIcon {
+  display: block;
+  margin: 10px auto -10px auto;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  width: calc(
+    100% - 22px
+  ); /* Subtrai 22px para compensar a largura das bordas */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  box-sizing: border-box; /* Garante que a largura inclua o preenchimento e a borda */
+  background-color: #222;
+  color: #ddd;
+}
+
+.textarea {
+  width: calc(
+    100% - 22px
+  ); /* Subtrai 22px para compensar a largura das bordas */
+  resize: vertical; /* Permite redimensionar verticalmente */
+  min-height: 100px; /* Altura mínima de 100 pixels */
+}
+
+.containerResult {
+  display: none;
+}
+
+.containerButton {
+  display: flex;
+}
+
+.button {
+  display: block;
+  width: 30%;
+  padding: 10px 20px; /* Ajuste o padding conforme necessário */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.button[data-name="createProductVision"] {
+  width: 50%;
+  background-color: #673ab7; /* Roxo profundo */
+}
+
+.button[data-name="createProductVision"]:hover {
+  background-color: #5e35b1; /* Roxo profundo escuro */
+}
+
+.button[data-name="savePDF"] {
+  background-color: #f44336; /* Vermelho */
+}
+
+.button[data-name="savePDF"]:hover {
+  background-color: #d32f2f; /* Vermelho escuro */
+}
+
+.button[data-name="proximaAcao"] {
+  background-color: #2196f3; /* Azul */
+}
+
+.button[data-name="proximaAcao"]:hover {
+  background-color: #1976d2; /* Azul escuro */
+}

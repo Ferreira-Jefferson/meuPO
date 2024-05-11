@@ -3,9 +3,6 @@ import redefineTextAreaSize from "../utils";
 
 let API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
 
-// Descomente a linha abaixo e insira SUA_API_KEY no local indicado
-// API_KEY = "SUA_API_KEY";
-
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 async function asnwer(prompt, textarea) {

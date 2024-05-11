@@ -48,22 +48,22 @@ O MeuPO agiliza diversos processos essenciais para gerenciamento de produto, inc
 
 **Contribuições:**
 
-Se você tiver sugestões ou melhorias para o MeuPO, sinta-se à vontade para contribuir com o projeto.
+- Se você tiver sugestões ou melhorias para o MeuPO, sinta-se à vontade para contribuir com o projeto.
 
 **Agradecimentos:**
 
-Agradeço a equipe do [Google Gemini](https://gemini.google.com/app) por fornecer a API que torna o MeuPO possível.
+- Agradeço a equipe do [Google Gemini](https://gemini.google.com/app) por fornecer a API que torna o MeuPO possível.
 
-Agradeço a equipe [Alura](https://www.alura.com.br/) pela 2ª edição da Imersão IA em parceria com o Google.
+- Agradeço a equipe [Alura](https://www.alura.com.br/) pela 2ª edição da Imersão IA em parceria com o Google.
 
-Agradeço a equipe da [FIAP](https://www.fiap.com.br/) por toda contribuição.
+- Agradeço a equipe da [FIAP](https://www.fiap.com.br/) por toda contribuição.
 
-Agradeço especialmente ao **Fabrício Carraro**, **Paulo Silveira**, **Ana Raquel** e **Luciano Martins**.
+- Agradeço especialmente ao **Fabrício Carraro**, **Paulo Silveira**, **Ana Raquel** e **Luciano Martins**.
 
-E agradeço a todos que compartilharam seu conhecimento e tempo nesta imersão, vocês são D+.
+Por fim, agradeço a todos que compartilharam seu conhecimento e tempo nesta imersão, vocês são D+.
 
 **Disclaimer:**
 
-O MeuPO é um projeto de autoria própria, desenvolvido para o desafio da Imersão IA 2024 da Alura em parceria com o Google e não é um produto oficial do Google ou da Alura.
+- O MeuPO é um projeto de autoria própria, desenvolvido para o desafio da Imersão IA 2024 da Alura em parceria com o Google e não é um produto oficial do Google ou da Alura.
 
 _by: Jefferson Ferreira_

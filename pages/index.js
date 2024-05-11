@@ -135,6 +135,18 @@ function Home() {
           </button>
         </div>
       </div>
+      <footer className={styles.footer}>
+        <p>
+          ⭐Me ajude na votação.
+          <a
+            href="https://discord.com/channels/1228404913705451612/1228406162618060913/1238665143827562547"
+            target="_blank"
+          >
+            {"  "}
+            Clique aqui ⭐
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }

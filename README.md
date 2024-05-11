@@ -27,9 +27,11 @@ O MeuPO agiliza diversos processos essenciais para gerenciamento de produto, inc
 **Visão Geral da Interface:**
 
 - **Tela Inicial**
+  &nbsp;
   ![Tela Inicial](./assets/visao_geral.png)
 
 - **MeuPO em execução**
+  &nbsp;
   ![Tela Inicial](./assets/video.gif)
 
 **Requisitos para Execução:**

@@ -95,22 +95,3 @@
 .button[data-name="proximaAcao"]:hover {
   background-color: #1976d2; /* Azul escuro */
 }
-
-.footer {
-  background-color: #333; /* Cor de fundo do rodapé (opcional) */
-  padding: 20px; /* Espaçamento interno do rodapé */
-  text-align: center; /* Centraliza o texto horizontalmente */
-}
-
-.footer p {
-  color: white; /* Cor da letra branca */
-  font-family: sans-serif; /* Define a família de fontes (opcional) */
-  font-size: 16px; /* Tamanho da fonte (opcional) */
-  margin: 0; /* Remove margens padrão dos parágrafos */
-}
-
-.footer a {
-  color: white; /* Cor do link branco */
-  text-decoration: none; /* Remove a decoração padrão dos links */
-  font-weight: bold; /* Torna o texto do link em negrito */
-}

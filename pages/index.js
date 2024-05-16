@@ -12,6 +12,8 @@ import {
   createTestes,
 } from "../public/scripts";
 
+import Sidebar from "./sidebar";
+
 import styles from "../public/index.module.css";
 
 function Home() {
@@ -64,10 +66,26 @@ function Home() {
     }
   };
 
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const clickMenu = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
+
+  const clickInContainer = () => {
+    if (isSidebarOpen) setSidebarOpen(false);
+  };
+
   return (
-    <div className={styles.container}>
-      <img className={styles.scrumIcon} src="./scrum-icon.png" alt="MeuPO" />
-      <pre className={styles.titulo}>MeuPO</pre>
+    <div className={styles.container} onClick={clickInContainer}>
+      <img className={styles.scrumIcon} src="./scrum-icon.png" alt="ScrumAux" />
+      <pre className={styles.titulo}>ScrumAux</pre>
+      <img
+        className={styles.menu}
+        src={`./menu${isSidebarOpen ? "" : " branco"}.png`}
+        onClick={clickMenu}
+      />
+      <Sidebar isOpen={isSidebarOpen} />
 
       <form id="product-vision-form">
         <label className="label" htmlFor="product">

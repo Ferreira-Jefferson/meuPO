@@ -24,16 +24,6 @@ O MeuPO agiliza diversos processos essenciais para gerenciamento de produto, inc
 - **Interface amigável:** O MeuPO oferece uma interface amigável e intuitiva, facilitando o uso para Product Owners de todos os níveis de experiência.
 - **Ajuste se necessário:** O MeuPO foi desenvolvido de maneira a permitir que você adicione ou remova trechos da resposta diretamente no TextArea antes de ir para o próximo processo.
 
-**Visão Geral da Interface:**
-
-- **Tela Inicial**
-  &nbsp;
-  ![Tela Inicial](./assets/visao_geral.png)
-
-- **MeuPO em execução**
-  &nbsp;
-  ![Tela Inicial](./assets/video.gif)
-
 **Requisitos para Execução:**
 
 - Node.js instalado na sua máquina local

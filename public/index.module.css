@@ -95,3 +95,62 @@
 .button[data-name="proximaAcao"]:hover {
   background-color: #1976d2; /* Azul escuro */
 }
+
+.btnReadme {
+  display: block;
+  width: 10%;
+  padding: 10px 20px; /* Ajuste o padding conforme necessário */
+  color: #fff;
+  background-color: rgba(103, 58, 183, 0.6);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* Adicionando o estilo para readmeContainer */
+.readmeContainer {
+  font-family: system-ui;
+  margin-top: 20px;
+  padding: 20px;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  max-width: 800px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+
+.readmeContainer h1,
+.readmeContainer h2,
+.readmeContainer h3,
+.readmeContainer h4,
+.readmeContainer h5,
+.readmeContainer h6 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.readmeContainer p {
+  margin: 0.5em 0;
+}
+
+.readmeContainer a {
+  color: #673ab7;
+}
+
+.readmeContainer ul,
+.readmeContainer ol {
+  padding-left: 20px;
+  margin: 0.5em 0;
+}
+
+.readmeContainer code {
+  background-color: #444;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
